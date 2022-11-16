@@ -98,7 +98,7 @@ Jenkins groups `steps` together in `stages`. Each of these steps can be a script
 
 | Jenkins steps | {% data variables.product.prodname_actions %} |
 | ------------- | ------------- |
-| [`script`](https://jenkins.io/doc/book/pipeline/syntax/#script) | [`jobs.<job_id>.steps`](/actions/reference/workflow-syntax-for-github-actions#jobsjob_idsteps) |
+| [`steps`](https://jenkins.io/doc/book/pipeline/syntax/#steps) | [`jobs.<job_id>.steps`](/actions/reference/workflow-syntax-for-github-actions#jobsjob_idsteps) |
 
 ## Examples of common tasks
 
